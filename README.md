@@ -28,10 +28,10 @@ showing the direction - red behind the player, yellow left or right of the playe
 of the player. The second part of the direction is the number of blocks vertically with a '+' or '-' sign<br>
 and a green arrow for above the player, and red for below the player.<br>
 
-Warnings in action bar:
+Warnings in action bar:<br>
 ![alt text](https://ob-mc.net/repo/obmobwarn_actionbar.png)
 
-Warnings in chat:
+Warnings in chat:<br>
 ![alt text](https://ob-mc.net/repo/obmobwarn_chat.png)
 
 Compiled for 1.21 and Java 21.
