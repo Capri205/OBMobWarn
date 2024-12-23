@@ -1,4 +1,4 @@
-# OBGameplayAdjuster
+# OBMobWarn
 Minecraft bukkit/spigot plugin to give a visual warning to a player when a hostile mob targeting them.<br>
 The plugin allows you to get warnings on all hostile mobs, special mobs that the player can anger, such<be>
 as polar bears, or bees, as well as configure it to only warn on specific mobs.<br>
