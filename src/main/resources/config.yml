@@ -1,0 +1,71 @@
+# Config file for OBMobWarn
+#
+
+# warn on all hostile mobs
+allhostile: true
+# time in seconds after initial targeting in which we shouldn't
+# announce mob is re-targeting the player. avoids spamming chat
+# or the action bar with the same mob targeting the player
+quiettime: 60
+# show warn message in action bar
+actionbarwarn: true
+# show warn message in chat
+chatwarn: false
+# interval time in ticks (20 ticks per second) between cleanups
+cleanupinterval: 40
+
+# mob specific reporting - will set allhostile to false
+warnmobs:
+
+# list of known hostile mobs
+hostilemobs:
+- BLAZE
+- BOGGED
+- BREEZE
+- CREEPER
+- DROWNED
+- ELDER_GUARDIAN
+- ENDER_DRAGON
+- ENDERMAN
+- ENDERMITE
+- EVOKER
+- GHAST
+- GIANT
+- GUARDIAN
+- HOGLIN
+- HUSK
+- ILLUSIONER
+- IRON_GOLEM
+- MAGMA_CUBE
+- PHANTOM
+- PIGLIN
+- PIGLIN_BRUTE
+- PILLAGER
+- POLAR_BEAR
+- RAVAGER
+- SHULKER
+- SILVERFISH
+- SKELETON
+- SLIME
+- SPIDER
+- STRAY
+- VEX
+- VINDICATOR
+- WARDEN
+- WITCH
+- WITHER
+- WITHER_SKELETON
+- WOLF
+- ZOGLIN
+- ZOMBIE
+- ZOMBIE_VILLAGER
+- ZOMBIFIED_PIGLIN
+
+# list of mobs that can become hostile when attacked
+specialmobs:
+- BEE
+- IRON_GOLEM
+- LLAMA
+- PANDA
+- POLAR_BEAR
+- WOLF

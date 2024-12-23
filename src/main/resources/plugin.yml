@@ -1,0 +1,11 @@
+website: http://ob-mc.net
+name: OBMobWarn
+author: Fahrenheit451
+version: 1.0
+api-version: "1.21"
+main: net.obmc.OBMobWarn.OBMobWarn
+description: Warns you when hostile mobs target you
+commands:
+  mobwarn:
+    description: OBMobWarn command.
+    usage: Type /mobwarn for a list of commands
