@@ -33,9 +33,7 @@ public class MessagingUtils {
 	}
 
 	private static Component buildWarning(String mobName, Component directionIndicator) {
-		return Component.text(mobName)
-			.color(NamedTextColor.RED)
-			.decorate(TextDecoration.BOLD)
+		return Component.text(mobName, NamedTextColor.RED, TextDecoration.BOLD)
 			.append(Component.text(" "))
 			.append(directionIndicator);
 	}

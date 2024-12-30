@@ -266,13 +266,7 @@ public class CommandListener implements CommandExecutor {
            	Component.text("/mobwarn quiettime - set the cooldown time in seconds on mob re-warning").color(NamedTextColor.YELLOW)
         );
     	MessagingUtils.sendChatWarning((Player)sender,
-            Component.text("/mobwarn quiettime - set the time between background cleanup checks").color(NamedTextColor.YELLOW)
-        );
-    	MessagingUtils.sendChatWarning((Player)sender,
-    	   	Component.text("    This is in server ticks (20 ticks per second)").color(NamedTextColor.YELLOW)
-    	);
-    	MessagingUtils.sendChatWarning((Player)sender,
-           	Component.text("/mobwarn checkinterval - ").color(NamedTextColor.YELLOW)
+            Component.text("/mobwarn checkinterval - set the time between background cleanup checks (ticks - 20 ticks = 1 second)").color(NamedTextColor.YELLOW)
         );
     	MessagingUtils.sendChatWarning((Player)sender,
        		Component.text("/mobwarn settings - shows current config").color(NamedTextColor.YELLOW)
